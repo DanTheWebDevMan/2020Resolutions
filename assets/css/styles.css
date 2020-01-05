@@ -6,12 +6,21 @@ h1 {
     color:red;
     font-weight: 100px;
     text-align: center;
+    background-color: black;
+    position: relative;
 }
 
 h2 {
     color:blue;
+    background-color: burlywood;
+    text-align: center;
 }
 
 ul ol {
     line-height: 25px;
+    text-align: right;
+}
+
+.images {
+    position: 
 }
