@@ -1,10 +1,17 @@
-
-
+body {
+    margin-left: 50px;
+}
 
 h1 {
     color:red;
+    font-weight: 100px;
+    text-align: center;
 }
 
 h2 {
     color:blue;
+}
+
+ul ol {
+    line-height: 25px;
 }
