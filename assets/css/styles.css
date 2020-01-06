@@ -1,12 +1,10 @@
 body {
     margin-left: 50px;
     color: white;
-    background-color: slategray;
+    background: linear-gradient(180deg, black, gray);
     font-size: medium;
 }
-p {
-    float: right;
-}
+
 
 h1 {
     color:red;
@@ -17,28 +15,21 @@ h1 {
 }
 
 h2 {
-    color:blue;
-    background-color: burlywood;
-    text-align: center;
+    color:white;
+    background-color:black;
+    text-align:left;
 }
+
+
 
 ul ol {
     float: right;
-} */
+} 
 
-li {
-    float:right;
-}
-.images {
+img {
     text-align: left;
     border-style: ridge;
     border-color: teal;
-
+    border-radius: 100px;
 }
 
-/* img {
-    border-color: black;
-    box-shadow: slategray;
-    border-style: solid 10px;
-    float: left;
-} */
