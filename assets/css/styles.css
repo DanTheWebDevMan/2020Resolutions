@@ -1,5 +1,11 @@
 body {
     margin-left: 50px;
+    color: white;
+    background-color: slategray;
+    font-size: medium;
+}
+p {
+    float: right;
 }
 
 h1 {
@@ -17,10 +23,22 @@ h2 {
 }
 
 ul ol {
-    line-height: 25px;
-    text-align: right;
+    float: right;
+} */
+
+li {
+    float:right;
+}
+.images {
+    text-align: left;
+    border-style: ridge;
+    border-color: teal;
+
 }
 
-.images {
-    position: 
-}
+/* img {
+    border-color: black;
+    box-shadow: slategray;
+    border-style: solid 10px;
+    float: left;
+} */
