@@ -22,9 +22,8 @@ h2 {
 }
 
 
-
 ul ol {
-    float: right;
+    float: left;
 } 
 
 img {
@@ -37,4 +36,8 @@ img {
 
 img:hover {
     transform: scale(1.25);
+}
+
+.list {
+    display: inline-block;
 }
