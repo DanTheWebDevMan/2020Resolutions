@@ -12,6 +12,8 @@ h1 {
     text-align: center;
     background-color: black;
     position: relative;
+    animation-name: gradient;
+    animation-duration: 4s;
 }
 
 h2 {
@@ -21,7 +23,6 @@ h2 {
     padding-left: 25px;
 }
 
-
 ul ol {
     float: left;
 } 
@@ -30,8 +31,7 @@ img {
     text-align: left;
     border-style: ridge;
     border-color: teal;
-    border-radius: 100px;
-    
+    border-radius: 100px; 
 }
 
 img:hover {
@@ -40,4 +40,16 @@ img:hover {
 
 .list {
     display: inline-block;
+}
+
+@keyframes gradient {
+    0%{
+        background-color: black;
+    }
+    50% {
+        background-color: gray;
+    }
+    100% {
+        background-color: white;
+    }
 }
